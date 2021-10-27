@@ -9,7 +9,7 @@ import {
 } from "./UserInformation.style";
 
 interface UserInformationProps {
-  picture: string;
+  picture?: string;
   name: string;
   rating: number;
   description?: string;
